@@ -6,9 +6,7 @@
   <img alt="Pac-Man contributions" src="https://raw.githubusercontent.com/itsib/itsib/refs/heads/output/pacman-dark.svg"/>
 </picture>
 
-### 🔥 GitHub Streak
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=itsib&theme=dark&date_format=j%20M%5B%20Y%5D&hide_border=true"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=itsib&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D"/>
-  <img src="https://streak-stats.demolab.com?user=itsib&theme=tokyonight"/>
-</picture>
+<div style="display: flex;">
+    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=itsib&show_icons=true&rank_icon=github&theme=transparent&hide_border=true" />
+    <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=itsib&layout=compact&langs_count=10&theme=transparent&hide_border=true" />
+</div>
