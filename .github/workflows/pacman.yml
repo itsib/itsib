@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: AnthonyBSong/git-pacman@v1
+      - name: Git-Pacman-Viz
+        uses: AnthonyBSong/git-pacman@v1.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
