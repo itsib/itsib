@@ -1,5 +1,7 @@
 ## Hi, I'm Sergey 👋
 
+Making this world a better place through technology.
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsib/itsib/refs/heads/output/pacman-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itsib/itsib/refs/heads/output/pacman-light.svg"/>
