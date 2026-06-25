@@ -14,12 +14,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Git-Pacman-Viz
+      - name: git-pacman-dark
         uses: AnthonyBSong/git-pacman@v1.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          svg_out_path: dist/pacman.svg
+          svg_out_path: dist/pacman-dark.svg
+          color_scheme: dark
+      - name: git-pacman-light
+        uses: AnthonyBSong/git-pacman@v1.0.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          svg_out_path: dist/pacman-light.svg
+          color_scheme: light
 
       - name: Push SVG to output branch
         run: |
@@ -27,6 +35,6 @@ jobs:
           git init -b output
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add pacman.svg
+          git add pacman-light.svg pacman-dark.svg
           git commit -m "chore: update pacman animation [skip ci]"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output:output

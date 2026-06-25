@@ -1,6 +1,10 @@
 ## Hi, I'm Sergey 👋
 
-![Pac-Man contributions](https://raw.githubusercontent.com/itsib/itsib/output/pacman.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsib/itsib/output/pacman-light.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itsib/itsib/output/pacman-dark.svg"/>
+  <img alt="Pac-Man contributions" src="https://raw.githubusercontent.com/itsib/itsib/output/pacman-dark.svg"/>
+</picture>
 
 ### 🔥 GitHub Streak
 <picture>
