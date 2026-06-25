@@ -1,9 +1,9 @@
 ## Hi there 👋
 
+![Pac-Man contributions](https://raw.githubusercontent.com/itsib/itsib/output/pacman.svg)
+
 <!--
 **itsib/itsib** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-![Pac-Man contributions](https://raw.githubusercontent.com/itsib/itsib/output/pacman.svg)
 
 Here are some ideas to get you started:
 
