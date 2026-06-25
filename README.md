@@ -1,6 +1,6 @@
 ## Hi, I'm Sergey 👋
 
-Making this world a better place through technology.
+The people who are crazy enough to think they can change the world are the ones who do.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsib/itsib/refs/heads/output/pacman-dark.svg"/>
