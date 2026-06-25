@@ -1,9 +1,9 @@
 ## Hi, I'm Sergey 👋
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsib/itsib/output/pacman-light.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itsib/itsib/output/pacman-dark.svg"/>
-  <img alt="Pac-Man contributions" src="https://raw.githubusercontent.com/itsib/itsib/output/pacman-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsib/itsib/refs/heads/output/pacman-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itsib/itsib/refs/heads/output/pacman-light.svg"/>
+  <img alt="Pac-Man contributions" src="https://raw.githubusercontent.com/itsib/itsib/refs/heads/output/pacman-dark.svg"/>
 </picture>
 
 ### 🔥 GitHub Streak
